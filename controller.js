@@ -21,7 +21,7 @@ SYMPHONY.remote.hello().then(function(data) {
                     navService.focus("symphonyAnalytics-nav"); 
                 }
                 
-                modulesService.show("symphonyAnalytics-module", {title: "Symphony Analytics"}, "symphonyAnalytics:controller", "https://symphony-ss.domo.com/", {
+                modulesService.show("symphonyAnalytics-module", {title: "Symphony Analytics"}, "symphonyAnalytics:controller", "https://anjanadasu.github.io/symphony-analytics-app/app.html", {
                     "canFloat": true,
                 });
                 modulesService.focus("symphonyAnalytics-module");
