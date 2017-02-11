@@ -1,1 +1,13 @@
-// bundle.json
+{
+  "applications": [
+    {
+      "type": "sandbox",
+      "id": "symphonyAnalytics",
+      "name": "Symphony Analytics",
+      "blurb": "Symphony Analytics app for exposing Domo.",
+      "publisher": "Symphony",
+      "url": "https://anjanadasu.github.io/symphony-analytics-app/controller.html",
+      "domain": "anjanadasu.github.io"
+    }
+  ]
+}
