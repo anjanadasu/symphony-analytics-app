@@ -1,9 +1,12 @@
 var controllerService = SYMPHONY.services.register("symphonyAnalytics:controller");
+console.log("controller");
 
 SYMPHONY.remote.hello().then(function(data) {
+    console.log("remote hello");
 
     SYMPHONY.application.register("hello", ["modules", "applications-nav"], ["symphonyAnalytics:controller"]).then(function(response) {
 
+        console.log("application register");
         // The userReferenceId is an anonymized random string that can be used for uniquely identifying users.
         // The userReferenceId persists until the application is uninstalled by the user. 
         // If the application is reinstalled, the userReferenceId will change.
